@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* styling starts here */
+body{
+    padding:  1rem 1rem 3rem 1rem;
+}
+header{
+    margin: 50px 20px 50px 0px;
+    padding-left: 40px;
+}
+section{
+    margin: 10px 10px 10px 10px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red{
+    background-color: #B22E25;
+}
+.small{
+    width: 150px;
+    height: 100px;
+    margin: 30px 30px 30px 30px;
+}
+span{
+    display: inline-block;
+}
+.solid{
+    border: 5px black solid;
+}
+.double{
+    border: 5px black double;
+}
+.dashed{
+    border: 5px black dashed;
+}
+.dotted{
+    border: 5px black dotted;
+}
+.big{
+    width: 400px;
+    height: 500px;
+    margin: 50px 0px 50px 10px;
+    border-right: 20px solid #808080;
+    border-bottom:20px solid yellow;
+    border-left: 20px solid #418107;
+    border-top: 20px solid #244AFB;
+    box-shadow: 0 0 0px 20px #812E80, 0 20px 0 20px #812E80, 0 -20px 0 20px #812E80;   
+}
+p{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 19px;
+}
